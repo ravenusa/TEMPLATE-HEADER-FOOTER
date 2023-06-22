@@ -608,7 +608,6 @@ margin-left: 300px;
 .navbar2 .navbar2-extra a:hover {
   color: var(--primary);
 }
-
 #hamburger-menu {
   display: none;
 }
@@ -969,11 +968,6 @@ margin-left: 300px;
       font-size: 62.5%;
   }
 
-  #hamburger-menu {
-      display: inline-block;
-      margin-right: 60px;
-  }
-
   .navbar2 .navbar2-nav2 {
       position: absolute;
       top: 100%;
@@ -987,7 +981,6 @@ margin-left: 300px;
 
   .navbar2 .navbar2-nav2.active {
       right: 0;
-      margin-right: 190px;
   }
   .navbar2 .navbar2-nav2 a {
       color: var(--bg);
@@ -1117,7 +1110,7 @@ overflow:hidden;
     margin-top: -10px;
     margin-left: -20px;
   }
-
+ 
   .gbr4{
     display:inline;
       width: 150px; 
@@ -1134,12 +1127,6 @@ overflow:hidden;
         display:none;
         margin-left: -100px;
         }
-     #hamburger-menu{
-      margin-left: -90px;
-    }
-    svg.feather.feather-menu{
-      margin-right: 120px;
-    }
 
 }
 /* @media (max-width: 400px) {

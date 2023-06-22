@@ -14,7 +14,7 @@
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: monsterart;
     background-color: var(--bg);
     color: #fff;
 }
@@ -118,7 +118,7 @@ body {
         display: inline-block;
     }
 
-    .navbar .navbar-nav {
+    .navbar2 .navbar2-nav {
         position: absolute;
         top: 100%;
         right: -100%;
@@ -128,11 +128,12 @@ body {
         transition: 0.3ms;
     }
 
-    .navbar .navbar-nav.active {
+    .navbar2 .navbar2-nav.active {
         right: 0;
+        height: auto;
     }
 
-    .navbar .navbar-nav a {
+    .navbar2 .navbar2-nav a {
         color: var(--bg);
         display: block;
         margin: 1.5rem;
@@ -140,15 +141,22 @@ body {
         font-size: 2rem;
     }
 
-    .navbar .navbar-nav a::after {
+    .navbar2 .navbar2-nav a::after {
         transform-origin: 0 0;
     }
 
-    .navbar .navbar-nav a:hover::after {
+    .navbar2 .navbar2-nav a:hover::after {
         transform: scaleX(0.2);
     }
-    .navbar img{
+    .navbar2 img{
         width: 240px;
+    }
+    svg.feather.feather-menu{
+        margin-left: 280px;
+    }
+    svg.feather.feather-search{
+        margin-left: 85px;
+        margin-bottom: 10px;
     }
 }
 
@@ -157,7 +165,11 @@ body {
     html {
         font-size: 55%;
     }
-    .navbar img{
+    .navbar2 img{
         width: 140px;
+    }
+    #hamburger-menu {
+        display: inline-block;
+        margin-left: -200px;
     }
 }
