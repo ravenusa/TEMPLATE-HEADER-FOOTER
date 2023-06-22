@@ -1,7 +1,7 @@
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
- */
+ */ 
  @font-face {
     font-family: "FontAwesome";
     src: url("clientlib-site/css/fonts/fontawesome-webfont.eot?v=4.7.0");
@@ -6428,10 +6428,13 @@
 }
 }
 
-@media (min-width : 651px) and (max-width: 900px){
+@media (min-width : 651px) and (max-width: 700px){
   .mapouter{
    margin-left: 230px;
    margin-bottom: 20px;
+}
+.navbar2-nav{
+  padding-right: initial;
 }
 .footer-page{
   height: 830px;
@@ -6443,9 +6446,13 @@
 .footer-page .container{
   height: 400px;
 }
+svg.feather.feather-search{
+  margin-left: 290px;
+  margin-bottom: 10px;
+}
 
 .maps{
-  margin-left: -651px;
+  margin-left: 136px;
 }
 .nav-footer{
   margin-left: -15px;
