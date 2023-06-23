@@ -90,6 +90,11 @@ body {
 #hamburger-menu {
     display: none;
 }
+.caption span{
+    display: flex; 
+    justify-content: end;
+    color: #ca054d;
+}
 
 .footer-page{
     height: 480px;
